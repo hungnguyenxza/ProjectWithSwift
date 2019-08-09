@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0EBA73D822FDD98700CEE1F4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA73D722FDD98700CEE1F4 /* main.swift */; };
+		0EBA73DF22FDDC2100CEE1F4 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA73DE22FDDC2100CEE1F4 /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0EBA73D422FDD98700CEE1F4 /* ConsoleApplication1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApplication1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBA73D722FDD98700CEE1F4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EBA73DE22FDDC2100CEE1F4 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0EBA73D722FDD98700CEE1F4 /* main.swift */,
+				0EBA73DE22FDDC2100CEE1F4 /* HelloWorld.swift */,
 			);
 			path = ConsoleApplication1;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EBA73D822FDD98700CEE1F4 /* main.swift in Sources */,
+				0EBA73DF22FDDC2100CEE1F4 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +215,7 @@
 		0EBA73DC22FDD98700CEE1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -218,6 +223,7 @@
 		0EBA73DD22FDD98700CEE1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
